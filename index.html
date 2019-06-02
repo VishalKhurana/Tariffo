@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Responsive Navigation Bar - W3jar.Com</title>
+<link rel="stylesheet" href="./styles/style.css">
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+        <div class="row" style="background-color: rgb(216, 61, 138)">
+                <span style="margin: 27%;">DIWALI&nbsp;&nbsp;  DHAMKA &nbsp;&nbsp;   <b>SALE</b></span>
+                            </div>
+
+                        </div>
+                             
+
+<div class="container-fluids">
+
+ 
+    <div class="logo">
+        <a href="#"><img src="./images/logo.png" alt="logo"></a>
+        
+       
+    </div>
+    
+<div class="navbar">
+
+<div class="icon-bar" onclick="Show()">
+    <i></i>
+    <i></i>
+    <i></i>
+</div>
+
+<div style="margin-left:27%">
+<ul id="nav-lists">
+    <li class="close"><span onclick="Hide()">×</span></li>
+    <li><a href="#"><i class="fa fa-home" style="font-size:24px;color:red;"></i>Home</a></li>
+    <li class="dropdown" >
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Products<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Belt</a></li>
+          <li><a href="#">Tie</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Something</a></li>
+        </ul>
+      </li>
+    <li><a href="#"> <i class="fa fa-shopping-bag" style="font-size:24px;color:red"></i>Shop</a></li>
+    <li><a href="#"><i class="fa fa-question-circle" style="font-size:24px;color:red"></i>About</a></li>
+    <li><a href="#"><i class="fa fa-phone" style="font-size:24px;color:red"></i>Contact</a></li>
+    <li><a href="#"><i class="fa fa-user-circle-o" style="color:red;font-size:24px;"></i>Login</a></li>
+    <li><a href="#"><i class="fa fa-shopping-cart" style="font-size:24px;color:red"></i>Cart</a></li>
+   
+    
+</ul>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+<script>
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("_Menus-show");
+}
+
+function Hide(){
+navList.classList.remove("_Menus-show");
+}
+$(document).ready(function(){
+    
+    $('.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+    });
+
+</script>
+</body>
+</html>
+
+
+
