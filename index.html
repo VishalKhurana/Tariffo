@@ -20,8 +20,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -58,16 +67,16 @@
        
     </div>
   
-<div style="margin-left:20%">
+<div  id="nav_style">
 <ul id="nav-lists">
     <li class="close"><span onclick="Hide()" id="cross_icon_bar">×</span></li>
-    <li><a href="#"><i class="fa fa-home" style="font-size:24px;color:rgb(243, 241, 241);"></i>Home</a></li>
-    <li><a href="#"> <i class="fa fa-shopping-bag" style="font-size:24px;color:rgb(243, 240, 240)"></i>Our products</a></li>
-    <li><a href="#"> <i class="fa fa-shopping-bag" style="font-size:24px;color:rgb(245, 241, 241)"></i>Shop</a></li>
-    <li><a href="#"><i class="fa fa-question-circle" style="font-size:24px;color:rgb(247, 242, 242)"></i>About</a></li>
-    <li><a href="#"><i class="fa fa-phone" style="font-size:24px;color:rgb(250, 245, 245)"></i>Contact</a></li>
-    <li><a href="#"><i class="fa fa-user-circle-o" style="color:rgb(250, 249, 249);font-size:24px;"></i>Login</a></li>
-    <li><a href="#"><i class="fa fa-shopping-cart" style="font-size:24px;color:rgb(248, 240, 240)"></i>Cart</a></li>
+    <li><a href="#" id="onchange1"><i class="fa fa-home" style="font-size:24px;color:rgb(10, 10, 10);"id ="done1"></i>Home</a></li>
+    <li><a href="#"id="onchange2"> <i class="fa fa-shopping-bag" style="font-size:24px;color:rgb(10, 9, 9)"id ="done2"></i>Our products</a></li>
+    <li><a href="#"id="onchange3"> <i class="fa fa-shopping-bag" style="font-size:24px;color:rgb(10, 9, 9)"id ="done3"></i>Shop</a></li>
+    <li><a href="#"id="onchange4"><i class="fa fa-question-circle" style="font-size:24px;color:rgb(10, 9, 9)"id ="done4"></i>About</a></li>
+    <li><a href="#"id="onchange5"><i class="fa fa-phone" style="font-size:24px;color:rgb(10, 9, 9)"id ="done5"></i>Contact</a></li>
+    <li><a href="#"id="onchange6"><i class="fa fa-user-circle-o" style="color:rgb(10, 9, 9);font-size:24px;"id ="done6"></i>Login</a></li>
+    <li><a href="#"id="onchange7"><i class="fa fa-shopping-cart" style="font-size:24px;color:rgb(10, 9, 9)"id ="done7"></i>Cart</a></li>
    
     
 </ul>
@@ -83,7 +92,7 @@
     <div class="row">
     <div id="banner" class="col-lg-6 col-sm-12 col-md-6">
       
-        <h1 class="font-effect-shadow-multiple" id="Tariffo_heading">Tariffo</h1>
+        <h1 class="font-effect-shadow-multiple" id="Tariffo_heading"></h1>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -134,10 +143,10 @@
           
       
     </div>
-    <div class="col-lg-6 col-sm-12 col-md-6 " id="heads">
-      <h1 class="font-effect-shadow-multiple" id="Tariffo_heading">Some Cachy Headline Here</h1>
-      <h2>Information about Enterprises</h2>
-      <h3>More related stuff</h3>
+    <div class="col-lg-6 col-sm-12 col-md-6"id="logotag">
+    <img src="images/logo.png"  style="opacity: 0.5">
+    <h4 style="font-family: HelveticaNeue-Light Helvetica Neue Light Helvetica Neue Helvetica, Arial Lucida Grande, sans-serif; 
+    font-weight: 300;">Wear The Fashion!</h4>
   
     </div>
   
@@ -195,9 +204,10 @@
 <section id="video_tariffo">
     <div class="container-fluid">
         <div class="row">
-          <div class="col" style="background-color: rgb(46, 39, 0)";>
-            <div class="col" style="text-align: center; margin: 2%;background-color: wheat;opacity: 0.9;border-radius: 250%;font-family: Open Sans, sans-serif;margin-top:3%;"><h1>
-          <b>Know More About Us!</b></h1>
+          <div class="col">
+            <div class="col" style="text-align: center; margin: 2%;opacity: 0.9;border-radius: 250%;font-family: Open Sans, sans-serif;margin-top:3%;"><h1>
+          <b style="font-family: HelveticaNeue-Light Helvetica Neue Light Helvetica Neue Helvetica, Arial Lucida Grande, sans-serif; 
+          font-weight: 300;">Know More About Us!</b></h1>
           </div>
           </div>
           </div>
@@ -270,15 +280,16 @@
 
     
     </div>
+    
   </section>
   <section id="sometext">
     <div class="container">
       <div class="row">
-        <div  style="background-color: rgb(92, 71, 2);margin: 2%;padding: 0%;border-radius: 40%;">
-          <div style="background-color: rgb(240, 237, 92);margin: 5%;padding: 0.2%;border-radius: 40%;">
-        <h1 style="text-align: center;font-family: 'Shrikhand', cursive;">DON'T MISS THE BUZZ</h1>
-      </div>
-      </div>
+        
+        <h1 style="text-align: center;font-family: HelveticaNeue-Light Helvetica Neue Light Helvetica Neue Helvetica, Arial Lucida Grande, sans-serif; 
+        font-weight: 300;padding-top: 4rem">DON'T MISS THE BUZZ</h1>
+      
+      
       </div>
       <div class="row">
           <div class="col-lg-6">
@@ -312,6 +323,117 @@
     </div>
 
   </section>
+  <section id="footer_tariffo">
+      <footer>
+         
+        
+            
+             <div class="footer" id="footer">
+              <div class="container">
+                <h4 style="font-family: 'Bree Serif', serif;text-align: center;">Come and Shop With Us Because You're Worth It</h4>
+                <div class="row no-gutters clients-wrap clearfix wow fadeInUp"id="footer_logos_div" style="text-align: center; visibility: visible; animation-name: fadeInUp;background-color: #ebebeb;overflow-y:hidden;">
+                  <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6"style="height: px;">
+                    <a href="#" target="_blank"><img id="sponsor_2"src="./images/flipkart.jpg" alt="nowwt" style="margin-left:10px;"></a><br>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6"style="height: px;">
+                      <a href="#" target="_blank"><img id="sponsor_1"src="./images/paytm.png" alt="nowwt" style="margin-left:5px;"></a><br>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6"style="height: px;">
+                        <a href="#" target="_blank"><img id="sponsor_2"src="./images/amazon.png" alt="nowwt" style="margin-left: 5px;"></a><br>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6"style="height: px;">
+                          <a href="#" target="_blank"><img id="sponsor_1"src="./images/Shopclues.jpg" alt="nowwt" style="margin-left: 0px;"></a><br>
+                          </div>
+                </div>
+                  <div class="row">
+                    <div class="col-lg-3  col-md-2 col-sm-4 col-xs-6" id="free_shipping_footer">
+                      <div class="cod-returns-section">
+                          <ul>
+                              <li>
+                                  <p style="position:relative;">
+                      <span><img src="https://www.libas.in/skin/frontend/libas/default/images/free-shipping.png" alt="Free Shipping on Libas Clothing" title="Free Shipping on Libas Clothing"></span>
+                    Free Shipping<br>
+                      <span class="astresick_shipping" style="color: blueviolet">*Applicable for orders above Rs. 1000/- </span></p>
+                              </li>
+                              <li>
+                                  <p><span><img src="https://www.libas.in/skin/frontend/libas/default/images/returns.png" alt="Hassle Free Returns of Libas Clothing" title="Hassle Free Returns of Libas Clothing"></span>hassle Free Returns</p>
+                              </li>
+                              <li>
+                                  <p><span><img src="https://www.libas.in/skin/frontend/libas/default/images/cod-logo.png" alt="Cash On Delivery Available at Libas" title="Cash On Delivery Available at Libas"></span>CASH ON DELIVERY</p>
+                              </li>
+      
+                          </ul>
+      
+                      </div>
+                  </div>
+                      <div class="col-lg-2">
+                        <div class="vl"></div>
+                      </div>
+                      <div class="col-lg-6  col-md-3 col-sm-6 col-xs-12 ">
+                          <h3> Lorem Ipsum </h3>
+                          <ul>
+                              <li>
+                                  <div class="input-append newsletter-box text-center">
+                                      <input type="text" class="full text-center" placeholder="Email ">
+                                      <button class="btn  bg-gray" type="button"> Lorem ipsum <i class="fa fa-long-arrow-right"> </i> </button>
+                                  </div>
+                              </li>
+                          </ul>
+                          <ul class="social" style="text-align: center">
+                              <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                          </ul>
+                      </div>
+                  </div>
+                 <div>
+                   <ul id="horizontal_lists">
+                     <li><a href="#">Item 1</a></li>
+                     <li><a href="#">Item 2</a></li>
+                     <li><a href="#">Item 3</a></li>
+                     <li><a href="#">Item 4</a></li>
+                     <li><a href="#">Item 5</a></li>
+                     <li><a href="#">Item 6</a></li>
+                   </ul>
+                 </div>
+                 <div class="row">
+                  <ul id="horizontal_listss">
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Returns and Exchange</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQs</a></li>
+                  </ul>
+                </div>
+                <div class="copy-right" style="text-align: center"><span class="copyright-note" style="color: rgb(165, 161, 161)">© Copyright 2019 Tariffo.in. All Rights Reserved.  </span>
+                  <br>
+                  <!--span class="copyright-note"> <a href="http://digitalimpressions.in" target="_blank">Digital Impressions</a></span--> </div>
+                  <!--/.row--> 
+              </div>
+              <!--/.container--> 
+          </div>
+          <!--/.footer-->
+          
+         <!-- <div class="footer-bottom">
+              <div class="container">
+                  <p class="pull-left"> Tariffo:-All Rights Reserved </p>
+                  <div class="pull-right">
+                      <ul class="nav nav-pills payments">
+                        <li><i class="fa fa-cc-visa"></i></li>
+                          <li><i class="fa fa-cc-mastercard"></i></li>
+                          <li><i class="fa fa-cc-amex"></i></li>
+                          <li><i class="fa fa-cc-paypal"></i></li>
+                      </ul> 
+                  </div>
+              </div>
+          </div>-->
+          <!--/.footer-bottom--> 
+        </footer>
+  </section>
+
 
 
 
@@ -334,6 +456,8 @@ $(document).ready(()=>{
     $('#video_tariffo').hide();
     $('#sometext').hide();
     $('#new_collection').hide();
+    $('#logotag').hide();
+    $('#footer_tariffo').hide();
 
   })
   $('#cross_icon_bar').click(()=>
@@ -345,7 +469,54 @@ $(document).ready(()=>{
     $('#video_tariffo').show();
     $('#sometext').show();
     $('#new_collection').show();
+    $('#logotag').show();
+    $('#footer_tariffo').show();
   })
+$('#onchange1').hover(()=>{
+  $('#done1').css("color", "red");
+},()=>{
+  $('#done1').css("color", "rgb(10, 9, 9)");
+}
+)
+$('#onchange2').hover(()=>{
+  $('#done2').css("color", "red");
+},()=>{
+  $('#done2').css("color", "rgb(10, 9, 9)");
+}
+)
+$('#onchange3').hover(()=>{
+  $('#done3').css("color", "red");
+},()=>{
+  $('#done3').css("color", "rgb(10, 9, 9)");
+}
+)
+$('#onchange4').hover(()=>{
+  $('#done4').css("color", "red");
+},()=>{
+  $('#done4').css("color", "rgb(10, 9, 9)");
+}
+)
+$('#onchange5').hover(()=>{
+  $('#done5').css("color", "red");
+},()=>{
+  $('#done5').css("color", "rgb(10, 9, 9)");
+}
+)
+$('#onchange6').hover(()=>{
+  $('#done6').css("color", "red");
+},()=>{
+  $('#done6').css("color", "rgb(10, 9, 9)");
+}
+)
+$('#onchange7').hover(()=>{
+  $('#done7').css("color", "red");
+},()=>{
+  $('#done7').css("color", "rgb(10, 9, 9)");
+}
+)
+
+
+
 })
 
 
