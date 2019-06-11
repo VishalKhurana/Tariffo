@@ -389,7 +389,7 @@ video {
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
 .zoom:hover {
-  transform: scale(1.7); 
+  transform: scale(1.4); 
   width: 80%;
   margin-left: 1%;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -411,6 +411,7 @@ video {
 #tariffo_logo
 {
   border-radius: 10%;
+  margin-left: 8%;
 }
 #heading_new_arrivals{
   text-align: center;
@@ -666,6 +667,7 @@ hr.new1 {
 
 
 }
+
 #horizontal_lists
 {
   margin-left:20%;
