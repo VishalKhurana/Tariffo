@@ -387,11 +387,11 @@ video {
   
   margin: 0 auto;
 }
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 990px) and (max-width: 1280px) {
 .zoom:hover {
   transform: scale(1.4); 
   width: 80%;
-  margin-left: 1%;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  margin-left: 1%;
 }
 }
 .img-with-text {
@@ -724,3 +724,200 @@ ul#horizontal_listss li {
   margin-left:10%;
 }
 }
+.col-left.sidebar.col-left-first {
+  position: sticky;
+  top: 115px;
+}
+
+element.style {
+}
+body:not(.customer-account) .block:first-child .block-title {
+    border-top: none;
+    padding-top: 0;
+}
+
+.col-left.sidebar.col-left-first .block-title {
+    display: none;
+}
+.block-title {
+    position: relative;
+    padding: 10px 0 0;
+    margin-bottom: 5px;
+    border-top: 1px solid #cccccc;
+}
+.block-content {
+  margin-top: 5px;
+}
+
+element.style {
+}
+@media only screen and (max-width: 1023px)
+dl#narrow-by-list {
+    width: 100%;
+}
+dl#narrow-by-list {
+    width: 90%;
+}
+body * {
+    letter-spacing: 0px !important;
+}
+@media only screen and (max-width: 1023px)
+{
+dl#narrow-by-list dt {
+    background: url(../images/plus.png) right center;
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+}
+
+
+dl#narrow-by-list dt {
+    background: url(../images/minuss.png) right center;
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+    text-transform: uppercase;
+}
+dl#narrow-by-list dt {
+    background-color: none;
+    border: none;
+    font-size: 13px;
+    color: #000;
+    font-family: 'Gotham-Medium';
+    padding: 5px;
+}
+}
+@media only screen and (max-width: 1023px)
+{
+.block-layered-nav .block-content>dl>dt {
+    padding-left: 0px;
+}
+}
+@media only screen and (min-width: 771px)
+{
+.block-layered-nav .block-content > dl > dt {
+    padding-left: 10px;
+}
+}
+
+
+
+@media only screen and (max-width: 1023px)
+{
+dl#narrow-by-list dd {
+    display: none;
+}
+dl#narrow-by-list dd {
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    padding: 4px 7px 13px 7px;
+    line-height: 19px;
+    display: block;
+    margin-bottom: 15px;
+}
+.block-layered-nav .block-content > dl > dd {
+    padding: 10px;
+    margin: 0;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+.block-layered-nav dl dd {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+}
+
+
+@media only screen and (max-width: 1023px)
+dl#narrow-by-list dt {
+    background: url(../images/plus.png) right center;
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+}
+dl#narrow-by-list dt {
+    background: url(../images/minuss.png) right center;
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+    text-transform: uppercase;
+}
+dl#narrow-by-list dt {
+    background-color: none;
+    border: none;
+    font-size: 13px;
+    color: #000;
+    font-family: 'Gotham-Medium';
+    padding: 5px;
+}
+@media only screen and (max-width: 1023px)
+{
+.block-layered-nav .block-content>dl>dt {
+    padding-left: 0px;
+}
+}
+@media only screen and (min-width: 771px)
+{
+.block-layered-nav .block-content > dl > dt {
+    padding-left: 10px;
+}
+}
+
+.col-lg-3 {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width:0;
+  height: 100%;
+  transition: .5s ease;
+  
+  
+}
+
+.col-lg-3:hover .overlay {
+  width:100%;;
+  left: 0;
+  right: 0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.explore_btn_product{position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(253, 4, 149);
+  color: rgb(5, 5, 5);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 1;
+
+  }
