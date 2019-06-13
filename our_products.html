@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Our Products</title>
+    <title>Our products</title>
     <link rel="stylesheet" href="./styles/style.css">
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet"/>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">   
 <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Merriweather|Montserrat|Quicksand|Shrikhand&display=swap" rel="stylesheet">
@@ -69,7 +69,7 @@
         <div  id="nav_style">
         <ul id="nav-lists"style="margin-right:0px">
             <li class="close"><span onclick="Hide()" id="cross_icon_bar">×</span></li>
-            <li><a href="#" id="onchange1"><i class="fa fa-home" style="font-size:19px;color:rgb(10, 10, 10);"id ="done1"></i>&nbsp;Home</a></li>
+            <li><a href="./index.html" id="onchange1"><i class="fa fa-home" style="font-size:19px;color:rgb(10, 10, 10);"id ="done1"></i>&nbsp;Home</a></li>
             <li><a href="#"id="onchange2"> <i class="fa fa-shopping-bag" style="font-size:17px;color:rgb(10, 9, 9)"id ="done2"></i>&nbsp;Our products</a></li>
             <li><a href="#"id="onchange3"> <i class="fa fa-shopping-bag" style="font-size:17px;color:rgb(10, 9, 9)"id ="done3"></i>&nbsp;Shop</a></li>
             <li><a href="#"id="onchange4"><i class="fa fa-question-circle" style="font-size:17px;color:rgb(10, 9, 9)"id ="done4"></i>&nbsp;About</a></li>
@@ -432,16 +432,16 @@
                     </div>
                   
             </div>-->
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-sm-12 col-md-6">
                 
                 <img src="images/my_products_2.jpg" alt="Avatar" class="image">
                 <div class="overlay">
-                  <div class="text"><p style="text-align: center;margin-top: 0%;">Ties</p><hr><p>Some Description Here.<br> so that we can attract customer.</p></div>
+                  <div class="text"><p style="text-align: center;margin-top: 0%;">Ties</p><hr><p>Some Description Here.</p></div>
                   <button class="explore_btn_product">Explore</button>
                 </div>
               
         </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-sm-12 col-md-6">
                 
                 <img src="images/my_products_2.jpg" alt="Avatar" class="image">
                 <div class="overlay">
@@ -450,7 +450,7 @@
                 </div>
               
         </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-sm-12 col-md-6">
                 
                 <img src="images/my_products_1.jpg" alt="Avatar" class="image">
                 <div class="overlay">
@@ -460,7 +460,7 @@
               
         </div>
         
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-sm-12 col-md-6">
                 
             <img src="images/my_products_2.jpg" alt="Avatar" class="image">
             <div class="overlay">
@@ -472,7 +472,7 @@
           </div>
           
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-12 col-md-6">
                 
                     <img src="images/my_products_1.jpg" alt="Avatar" class="image">
                     <div class="overlay">
@@ -482,7 +482,7 @@
                     </div>
                   
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-sm-12 col-md-6">
                 
                 <img src="images/my_products_2.jpg" alt="Avatar" class="image">
                 <div class="overlay">
@@ -491,7 +491,7 @@
                 </div>
               
         </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-sm-12 col-md-6">
                 
                 <img src="images/my_products_1.jpg" alt="Avatar" class="image">
                 <div class="overlay">
@@ -501,7 +501,7 @@
               
         </div>
         
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-sm-12 col-md-6">
                 
             <img src="images/my_products_2.jpg" alt="Avatar" class="image">
             <div class="overlay">
@@ -654,6 +654,7 @@
                     $('#new_collection').hide();
                     $('#logotag').hide();
                     $('#footer_tariffo').hide();
+                    $('#default_products').hide();
                 
                   })
                   $('#cross_icon_bar').click(()=>
@@ -667,6 +668,7 @@
                     $('#new_collection').show();
                     $('#logotag').show();
                     $('#footer_tariffo').show();
+                    $('#default_products').show();
                   })
                 $('#onchange1').hover(()=>{
                   $('#done1').css("color", "red");
