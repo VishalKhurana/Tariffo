@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -35,13 +37,14 @@
 <body>
 
     <div class="container-fluid">
-        <div class="row" style="background-color: rgb(216, 61, 138);text-align: center;">
-            DIWALI DHAMAKA <b>SALE</b>
+        <div class="row" style="background-color: rgb(73, 37, 37);text-align: center;color: white">
+            
+            INDEPENDENCE DAY <b>SALE</b> 
         </div>
     </div>
 
     <div class="container-fluids">
-        <div class="navbar">
+        <div class="navbar" style="margin-top: -1px;">
             <div class="icon-bar" id="icon_bar_mobile" onclick="Show()">
                 <i></i>
                 <i></i>
@@ -49,34 +52,37 @@
             </div>
 
             <div class="logo">
-                <a href="#"><img id="tariffo_logo" src="./images/logo.png" alt="logo"></a>
+                <a href="#"><img id="tariffo_logo"class="rotate-center" src="./images/logo.png" alt="logo"></a>
             </div>
 
-            <div id="nav_style">
+            <div id="nav_style" >
                 <ul id="nav-lists" style="margin-right:0px">
                     <li class="close"><span onclick="Hide()" id="cross_icon_bar">×</span></li>
-                    <li><a href="#" id="onchange1"><i class="fa fa-home" style="font-size:19px;color:rgb(10, 10, 10);"id ="done1"></i>&nbsp;Home</a></li>
+                    <li><a href="#" id="onchange1"><i class="fa fa-home" style="font-size:19px;color:rgb(180, 102, 102);"id ="done1"></i>&nbsp;Home</a></li>
                     <li>
-                        <a href="./our_products.html" id="onchange2"> <i class="fa fa-shopping-bag" style="font-size:17px;color:rgb(10, 9, 9)" id="done2"></i>&nbsp;Our products</a>
+                        <a href="./our_products.html" id="onchange2"> <i class="fa fa-shopping-bag" style="font-size:17px;color:rgb(180, 102, 102)" id="done2"></i>&nbsp;Our products</a>
                     </li>
                     <li>
-                        <a href="#" id="onchange3"> <i class="fa fa-shopping-bag" style="font-size:17px;color:rgb(10, 9, 9)" id="done3"></i>&nbsp;Shop</a>
+                        <a href="#" id="onchange3"> <i class="fa fa-shopping-bag" style="font-size:17px;color:rgb(180, 102, 102)" id="done3"></i>&nbsp;Shop</a>
                     </li>
-                    <li><a href="#" id="onchange4"><i class="fa fa-question-circle" style="font-size:17px;color:rgb(10, 9, 9)"id ="done4"></i>&nbsp;About</a></li>
-                    <li><a href="#" id="onchange5"><i class="fa fa-phone" style="font-size:17px;color:rgb(10, 9, 9)"id ="done5"></i>&nbsp;Contact</a></li>
-                    <li><a href="#" id="onchange6"><i class="fa fa-user-circle-o" style="color:rgb(10, 9, 9);font-size:17px;"id ="done6"></i>&nbsp;Login</a></li>
-                    <li><a href="#" id="onchange7"><i class="fa fa-shopping-cart" style="font-size:17px;color:rgb(10, 9, 9)"id ="done7"></i>&nbsp;Cart</a></li>
+                    <li><a href="#" id="onchange4"><i class="fa fa-question-circle" style="font-size:17px;color:rgb(180, 102, 102)"id ="done4"></i>&nbsp;About</a></li>
+                    <li><a href="#" id="onchange5"><i class="fa fa-phone" style="font-size:17px;color:rgb(180, 102, 102)"id ="done5"></i>&nbsp;Contact</a></li>
+                    <li><a href="#" id="onchange6"><i class="fa fa-user-circle-o" style="color:rgb(180, 102, 102);font-size:17px;"id ="done6"></i>&nbsp;Login</a></li>
+                    <li><a href="#" id="onchange7"><i class="fa fa-shopping-cart" style="font-size:17px;color:rgb(180, 102, 102)"id ="done7"></i>&nbsp;Cart</a></li>
+                    <hr>
                 </ul>
+                <hr>
             </div>
+            <hr>
         </div>
+        <hr>
     </div>
 
     <section id="banner">
-        <div class="container-fluid" id="coursel+heading">
+        <div class="container-fluid" id="coursel+heading" style="padding-left: 0px">
             <div class="row">
-                <div id="banner" class="col-lg-6 col-sm-12 col-md-6">
-                    <h1 class="font-effect-shadow-multiple" id="Tariffo_heading"></h1>
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div id="banner" class="col-lg-8 col-sm-12 col-md-6">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-left:0px">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -118,13 +124,18 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-12 col-md-6" id="logotag">
-                    <img src="images/logo.png" style="opacity: 0.5">
+                <div class="col-lg-4 col-sm-12 col-md-6" id="logotag">
+                    
+                    <img src="images/logo.png" class="rotate-scale-up"style="opacity: 0.5">
+                    <br>
                     <h4 style="font-family: HelveticaNeue-Light Helvetica Neue Light Helvetica Neue Helvetica, Arial Lucida Grande, sans-serif; 
-    font-weight: 300;">Wear The Fashion!</h4>
+    font-weight: 300;" class="type_2">Wear The Fashion!</h4><h4 style="font-family: 'Abril Fatface', cursive;text-align: left"id="about_us">ABOUT US</h4>
+    <h5 style="font-family: 'Roboto', sans-serif;font-weight: lighter;text-align: justify;"id="about_tariffo">Tariffo is the go-to source for luxury fashion fans, fun lovers, and free spirits of the world. We’re committed to offering unique styles from hundreds of independent designers in a full range of sizes. Inspired by feedback from our dedicated customers and highly engaged community, we also design and sell our own exclusive line of apparel.</h5><hr>
                 </div>
+               
             </div>
     </section>
+   
     <br>
     <br>
     <section id="ribbon">
@@ -132,21 +143,21 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12 col-md-4">
                     <a href="#">
-                        <div class="slant">Shop
+                        <div class="slant type_2">Shop
                             <br> Under 1999&nbsp;&nbsp;
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-12 col-md-4">
                     <a href="#">
-                        <div class="slant">Shop
+                        <div class="slant type_2">Shop
                             <br>Minimum 50% OFF</br>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-12 col-md-4">
                     <a href="#">
-                        <div class="slant">Shop
+                        <div class="slant type_2">Shop
                             <br>Under 999&nbsp;&nbsp;&nbsp;&nbsp;</br>
                         </div>
                     </a>
@@ -194,21 +205,25 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 style="font-family: 'Merriweather', serif;;text-align: center;margin-top: 1px;">Why Choose Us</h1>
+            <div class="row" style="position: relative;">
+                <div class="col-lg-6" style="position: static">
+                    
+                    <h1 style="font-family: 'Merriweather', serif;text-align: center;margin-top: 1px;height: 100%;border-block:initial"id="type_1">Why Choose Us</h1>
+                   
+                   
                     <ul>
+                        <li >
+                            <h4 style="font-family:Arial, Helvetica, sans-serif;display: inline;position: static" class="margin_video">Tariffo understands that business value cannot be achieved through &nbsp;technology alone.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;display: inline" class="margin_video">Tariffo understands that business value cannot be achieved through &nbsp;technology alone.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif; position: static;">It starts with people: experts working together to get to the heart of your individual business objectives and develop the most adapted solutions to fit these requirements.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;">It starts with people: experts working together to get to the heart of your individual business objectives and develop the most adapted solutions to fit these requirements.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif ;position: static;">We believe this human-centered approach to technology is what makes the difference for your business.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;">We believe this human-centered approach to technology is what makes the difference for your business.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif;position: static">We’re committed to offering unique styles from hundreds of independent designers in a full range of sizes.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;">We’re committed to offering unique styles from hundreds of independent designers in a full range of sizes.</h4></li>
-                        <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;">Inspired by feedback from our dedicated customers and highly engaged community, we also design and sell our own exclusive line of apparel.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif;position: static">Inspired by feedback from our dedicated customers and highly engaged community, we also design and sell our own exclusive line of apparel.</h4></li>
                     </ul>
+                  
                 </div>
                 <div class="col-lg-6">
                     <video width="400" controls>
@@ -223,7 +238,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col" id="heading_new_arrivals">
-                    <h1>NEW ARRIVALS</h1>
+                    <h1 class="type_1"id="new">NEW ARRIVALS</h1>
                 </div>
                 <div class="col">
                     <h6 style="text-align: center">Exclusively @ Tariffo</h6>
@@ -233,37 +248,44 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-sm-12 col-md-6 img-with-text" style="width:image width px;">
-                    <img class="access zoom" style="margin-top: 10%;" src="images/new_arrivals.jpg">
+                    <img class="access" id="new_arrival_1" style="margin-top: 10%;" src="images/my_products_1.jpg" onmouseover="onHover_1();" 
+                    onmouseout="offHover_1()">
+                   
+                    <p>Tariffo products are most everlasting and reliable.</p>
+                    <p><del style="color: grey">RS.2290</del></p>
+                    <p>Rs.900 <span style="color: rgb(130, 0, 0)">(25% OFF)</span></p>
+                </div>
+                <div class="col-lg-2 col-sm-12 col-md-6 img-with-text">
+                    <img class="access"id="new_arrival_2" style="margin-top: 10%;" src="images/new_arrivals.jpg" onmouseover="onHover_2();" 
+                    onmouseout="offHover_2()">
                     <p>Tariffo products are most everlasting and reliable.</p>
                     <p><del style="color: grey">RS.2290</del></p>
                     <p>Rs.900 <span style="color: indigo">(25% OFF)</span></p>
                 </div>
                 <div class="col-lg-2 col-sm-12 col-md-6 img-with-text">
-                    <img class="access zoom" style="margin-top: 10%;" src="images/new_arrivals.jpg">
+                    <img class="access"id="new_arrival_3" style="margin-top: 10%;" src="images/new_arrivals.jpg"onmouseover="onHover_3();" 
+                    onmouseout="offHover_3()">
                     <p>Tariffo products are most everlasting and reliable.</p>
                     <p><del style="color: grey">RS.2290</del></p>
                     <p>Rs.900 <span style="color: indigo">(25% OFF)</span></p>
                 </div>
                 <div class="col-lg-2 col-sm-12 col-md-6 img-with-text">
-                    <img class="access zoom" style="margin-top: 10%;" src="images/new_arrivals.jpg">
+                    <img class="access"id="new_arrival_4" style="margin-top: 10%;" src="images/new_arrivals.jpg"onmouseover="onHover_4();" 
+                    onmouseout="offHover_4()">
                     <p>Tariffo products are most everlasting and reliable.</p>
                     <p><del style="color: grey">RS.2290</del></p>
                     <p>Rs.900 <span style="color: indigo">(25% OFF)</span></p>
                 </div>
                 <div class="col-lg-2 col-sm-12 col-md-6 img-with-text">
-                    <img class="access zoom" style="margin-top: 10%;" src="images/new_arrivals.jpg">
+                    <img class="access"id="new_arrival_5" style="margin-top: 10%;" src="images/new_arrivals.jpg"onmouseover="onHover_5();" 
+                    onmouseout="offHover_5()">
                     <p>Tariffo products are most everlasting and reliable.</p>
                     <p><del style="color: grey">RS.2290</del></p>
                     <p>Rs.900 <span style="color: indigo">(25% OFF)</span></p>
                 </div>
                 <div class="col-lg-2 col-sm-12 col-md-6 img-with-text">
-                    <img class="access zoom" style="margin-top: 10%;" src="images/new_arrivals.jpg">
-                    <p>Tariffo products are most everlasting and reliable.</p>
-                    <p><del style="color: grey">RS.2290</del></p>
-                    <p>Rs.900 <span style="color: indigo">(25% OFF)</span></p>
-                </div>
-                <div class="col-lg-2 col-sm-12 col-md-6 img-with-text">
-                    <img class="access zoom" style="margin-top: 10%;" src="images/new_arrivals.jpg">
+                    <img class="access"id="new_arrival_6" style="margin-top: 10%;" src="images/new_arrivals.jpg" onmouseover="onHover_6();" 
+                    onmouseout="offHover_6()">
                     <p>Tariffo products are most everlasting and reliable.</p>
                     <p><del style="color: grey">RS.2290</del></p>
                     <p>Rs.900 <span style="color: indigo">(25% OFF)</span></p>
@@ -335,7 +357,7 @@
                                         <p style="position:relative;">
                                             <span><img src="https://www.libas.in/skin/frontend/libas/default/images/free-shipping.png" alt="Free Shipping on Libas Clothing" title="Free Shipping on Libas Clothing"></span> Free Shipping
                                             <br>
-                                            <span class="astresick_shipping" style="color: blueviolet">*Applicable for orders above Rs. 1000/- </span></p>
+                                            <span class="astresick_shipping" style="color: rgb(226, 192, 43)">*Applicable for orders above Rs. 1000/- </span></p>
                                     </li>
                                     <li>
                                         <p><span><img src="https://www.libas.in/skin/frontend/libas/default/images/returns.png" alt="Hassle Free Returns of Libas Clothing" title="Hassle Free Returns of Libas Clothing"></span>hassle Free Returns</p>
@@ -448,6 +470,11 @@
                 $('#footer_tariffo').hide();
 
             })
+ 
+
+
+
+  
 
             $('#cross_icon_bar').click(() => {
                 $('#myCarousel').show();
@@ -464,40 +491,194 @@
             $('#onchange1').hover(() => {
                 $('#done1').css("color", "red");
             }, () => {
-                $('#done1').css("color", "rgb(10, 9, 9)");
+                $('#done1').css("color", "rgb(180, 102, 102)");
             })
             $('#onchange2').hover(() => {
                 $('#done2').css("color", "red");
             }, () => {
-                $('#done2').css("color", "rgb(10, 9, 9)");
+                $('#done2').css("color", "rgb(180, 102, 102)");
             })
             $('#onchange3').hover(() => {
                 $('#done3').css("color", "red");
             }, () => {
-                $('#done3').css("color", "rgb(10, 9, 9)");
+                $('#done3').css("color", "rgb(180, 102, 102)");
             })
             $('#onchange4').hover(() => {
                 $('#done4').css("color", "red");
             }, () => {
-                $('#done4').css("color", "rgb(10, 9, 9)");
+                $('#done4').css("color", "rgb(180, 102, 102)");
             })
             $('#onchange5').hover(() => {
                 $('#done5').css("color", "red");
             }, () => {
-                $('#done5').css("color", "rgb(10, 9, 9)");
+                $('#done5').css("color", "rgb(180, 102, 102)");
             })
             $('#onchange6').hover(() => {
                 $('#done6').css("color", "red");
             }, () => {
-                $('#done6').css("color", "rgb(10, 9, 9)");
+                $('#done6').css("color", "rgb(180, 102, 102)");
             })
             $('#onchange7').hover(() => {
                 $('#done7').css("color", "red");
             }, () => {
-                $('#done7').css("color", "rgb(10, 9, 9)");
+                $('#done7').css("color", "rgb(180, 102, 102)");
             })
+            
+  
 
         })
+        function onHover_1()
+{
+    $("#new_arrival_1").attr('src', 'images/my_products_2.jpg');
+}
+function onHover_2()
+{
+    $("#new_arrival_2").attr('src', 'images/my_products_2.jpg');
+   }
+   function onHover_3()
+   { 
+     $("#new_arrival_3").attr('src', 'images/my_products_1.jpg');
+   }
+   function onHover_4()
+   {
+    $("#new_arrival_4").attr('src', 'images/my_products_1.jpg');
+   }
+   function onHover_5()
+   {  
+   $("#new_arrival_5").attr('src', 'images/my_products_1.jpg');
+    }
+    function onHover_6()
+    {   
+     $("#new_arrival_6").attr('src', 'images/my_products_1.jpg');
+}
+
+function offHover_1()
+{
+  
+    $("#new_arrival_1").attr({'src':'images/my_products_1.jpg'});
+  } 
+  function offHover_2()
+  {
+   $("#new_arrival_2").attr({'src':'images/my_products_1.jpg','transtion-delay':'1000'});
+  }
+  function offHover_3()
+  {
+    $("#new_arrival_3").attr({'src':'images/my_products_2.jpg','transtion-delay':'1000'});
+  }
+  function offHover_4()
+  {
+    $("#new_arrival_4").attr({'src':'images/my_products_2.jpg','transtion-delay':'1000'});
+  }
+  function offHover_5()
+  {
+    $("#new_arrival_5").attr({'src':'images/my_products_2.jpg','transtion-delay':'1000'});
+  }
+  function offHover_6()
+  {
+    $("#new_arrival_6").attr({'src':'images/my_products_2.jpg','transtion-delay':'1000'});
+}
+
+var words = [""];
+let i = 0;
+let timer;
+var p=0;
+function typingEffect() {
+    
+    
+    
+    
+	let word = words[i].split("");
+   
+	var loopTyping = function() {
+		if (word.length > 0) {
+
+
+			$('.type_2').innerHTML += word.shift();
+		} 
+        else {
+
+			deletingEffect();
+			return false;
+		};
+		timer = setTimeout(loopTyping, 500);
+	};
+    
+	loopTyping();
+    
+    
+
+};
+
+function deletingEffect() {
+    
+	let word = words[i].split("");
+	var loopDeleting = function() {
+
+		if (word.length >1) {
+			word.pop();
+			$('.type_2').innerHTML = word.join("");
+            
+		} else {
+			if (words.length > (i +1 )) {
+				i=i+1;
+			} else {
+				i = 0;
+			};
+            p=1;
+            if(p==1)
+            {
+
+            
+                words = ["hy Choose Us"]
+			typingEffect();
+            
+            }
+			return 0;
+		};
+		timer = setTimeout(loopDeleting, 100);
+	};
+
+	loopDeleting();
+ 
+ 
+   
+};
+
+
+typingEffect();
+
+$(document).ready(function () {
+    $('#about_tariffo').hide();
+    $('#about_us').hide();
+    $('#about_us').fadeIn(2000);
+    $('#about_tariffo').fadeIn(6000);
+    function set()
+    {
+    $('#tariffo_logo').addClass("rotate-center");
+   
+    
+    }
+    setTimeout(set,8000)
+    
+                $("#new_collection").scroll(function() { 
+                    $('#new').addClass("type_2")
+                    alert('you have scrolled to the h1!');
+                     
+                }); 
+                $(window).onload('scroll',function() {
+   var hT = $('#new_collection').offset().top,
+       hH = $('#new_collection').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH)){
+       console.log('H1 on the view!');
+   }
+});
+ 
+});
+
+
+
     </script>
 </body>
 
