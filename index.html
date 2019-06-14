@@ -78,7 +78,7 @@
         <hr>
     </div>
 
-    <section id="banner">
+    <section id="banner" style="background-color: rgb(253, 253, 253)">
         <div class="container-fluid" id="coursel+heading" style="padding-left: 0px">
             <div class="row">
                 <div id="banner" class="col-lg-8 col-sm-12 col-md-6">
@@ -92,16 +92,16 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="./images/banner.jpg" alt="Los Angeles" style="width:100%;">
+                                <img src="./images/slide-2.jpg" alt="Los Angeles" style="width:100%;">
                                 <div class="carousel-caption">
-                                    <h3>Belts</h3>
+                                    <h3>From One To All</h3>
                                     <p>All accessories at Tariffo!</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="./images/banner.jpg" alt="Chicago" style="width:100%;">
+                                <img src="./images/slide-1.jpg" alt="Chicago" style="width:100%;">
                                 <div class="carousel-caption">
-                                    <h3>Belts</h3>
+                                    <h3>New Royal Collection</h3>
                                     <p>All accessories at Tariffo!</p>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
     </section>
    
     <br>
-    <br>
+    
     <section id="ribbon">
         <div class="container">
             <div class="row">
@@ -169,7 +169,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    <a href="#"><img class="access" src="./images/belt.jpg">
+                    <a href="#"><img class="access" src="./images/slide-1.jpg">
                         <button class="explore_btn">Explore</button>
                     </a>
                 </div>
@@ -181,12 +181,12 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    <a href="#"><img class="access" src="./images/banner.jpg">
+                    <a href="#"><img class="access" src="./images/slide-2.jpg">
                         <button class="explore_btn">Explore</button>
                     </a>
                 </div>
                 <div class="col-lg-6 col-sm-12">
-                    <a href="#"><img class="access" src="./images/banner.jpg">
+                    <a href="#"><img class="access" src="./images/slide-1.jpg">
                         <button class="explore_btn">Explore</button>
                     </a>
                 </div>
@@ -213,15 +213,15 @@
                    
                     <ul>
                         <li >
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;display: inline;position: static" class="margin_video">Tariffo understands that business value cannot be achieved through &nbsp;technology alone.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif;display: inline;position: static;font-size:medium;font-weight: lighter" class="margin_video">Tariffo understands that business value cannot be achieved through &nbsp;technology alone.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif; position: static;">It starts with people: experts working together to get to the heart of your individual business objectives and develop the most adapted solutions to fit these requirements.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif; position: static;font-size:medium;font-weight: lighter">It starts with people: experts working together to get to the heart of your individual business objectives and develop the most adapted solutions to fit these requirements.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif ;position: static;">We believe this human-centered approach to technology is what makes the difference for your business.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif ;position: static;font-size:medium;font-weight: lighter">We believe this human-centered approach to technology is what makes the difference for your business.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;position: static">We’re committed to offering unique styles from hundreds of independent designers in a full range of sizes.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif;position: static;font-size:medium;font-weight: lighter">We’re committed to offering unique styles from hundreds of independent designers in a full range of sizes.</h4></li>
                         <li>
-                            <h4 style="font-family:Arial, Helvetica, sans-serif;position: static">Inspired by feedback from our dedicated customers and highly engaged community, we also design and sell our own exclusive line of apparel.</h4></li>
+                            <h4 style="font-family:Arial, Helvetica, sans-serif;position: static;font-size:medium;font-weight: lighter">Inspired by feedback from our dedicated customers and highly engaged community, we also design and sell our own exclusive line of apparel.</h4></li>
                     </ul>
                   
                 </div>
@@ -238,7 +238,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col" id="heading_new_arrivals">
-                    <h1 class="type_1"id="new">NEW ARRIVALS</h1>
+                    <h1 class="type_1"id="new"style="position: inherit;"></h1>
                 </div>
                 <div class="col">
                     <h6 style="text-align: center">Exclusively @ Tariffo</h6>
@@ -578,74 +578,10 @@ function offHover_1()
     $("#new_arrival_6").attr({'src':'images/my_products_2.jpg','transtion-delay':'1000'});
 }
 
-var words = [""];
-let i = 0;
-let timer;
-var p=0;
-function typingEffect() {
-    
-    
-    
-    
-	let word = words[i].split("");
-   
-	var loopTyping = function() {
-		if (word.length > 0) {
 
 
-			$('.type_2').innerHTML += word.shift();
-		} 
-        else {
-
-			deletingEffect();
-			return false;
-		};
-		timer = setTimeout(loopTyping, 500);
-	};
-    
-	loopTyping();
-    
-    
-
-};
-
-function deletingEffect() {
-    
-	let word = words[i].split("");
-	var loopDeleting = function() {
-
-		if (word.length >1) {
-			word.pop();
-			$('.type_2').innerHTML = word.join("");
-            
-		} else {
-			if (words.length > (i +1 )) {
-				i=i+1;
-			} else {
-				i = 0;
-			};
-            p=1;
-            if(p==1)
-            {
-
-            
-                words = ["hy Choose Us"]
-			typingEffect();
-            
-            }
-			return 0;
-		};
-		timer = setTimeout(loopDeleting, 100);
-	};
-
-	loopDeleting();
- 
- 
-   
-};
 
 
-typingEffect();
 
 $(document).ready(function () {
     $('#about_tariffo').hide();
@@ -658,6 +594,7 @@ $(document).ready(function () {
    
     
     }
+    
     setTimeout(set,8000)
     
                 $("#new_collection").scroll(function() { 
@@ -665,7 +602,7 @@ $(document).ready(function () {
                     alert('you have scrolled to the h1!');
                      
                 }); 
-                $(window).onload('scroll',function() {
+               /* $(window).onload('scroll',function() {
    var hT = $('#new_collection').offset().top,
        hH = $('#new_collection').outerHeight(),
        wH = $(window).height(),
@@ -673,7 +610,53 @@ $(document).ready(function () {
    if (wS > (hT+hH-wH)){
        console.log('H1 on the view!');
    }
-});
+});*/
+
+var words = ["NEW ARRIVALS"];
+let i = 0;
+var s=0;
+let timer;
+
+function typingEffect() {
+   
+	let word = words[i].split("");
+	var loopTyping = function() {
+		if (word.length > 0) {
+			document.getElementById('new').innerHTML += word.shift();
+		} else {
+			//deletingEffect();
+			return false;
+		};
+		timer = setTimeout(loopTyping, 600);
+	};
+	loopTyping();
+};
+
+function deletingEffect() {
+    
+	let word = words[i].split("");
+	var loopDeleting = function() {
+		if (word.length > 0) {
+			word.pop();
+			document.getElementById('new').innerHTML = word.join("");
+            //console.log('hi')
+		} else {
+			if (words.length > (i + 1)) {
+				i++;
+			} else {
+				i = 0;
+			};
+			typingEffect();
+			return false;
+		};
+		timer = setTimeout(loopDeleting, 100);
+       
+	};
+	loopDeleting();
+    s=1;
+};
+
+typingEffect();
  
 });
 
